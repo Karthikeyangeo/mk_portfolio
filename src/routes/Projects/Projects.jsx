@@ -34,6 +34,7 @@ export default function Projects() {
                 <Button 
                     variant ="outlined" 
                     className='githubButton'
+                    sx={{backgroundColor:'white'}}
                     onClick={()=> window.open(data.frontEndLink, "_blank")}
                 >
                   <img src={github} alt="github link" className='githubLink'/>
@@ -46,6 +47,7 @@ export default function Projects() {
                   <Button 
                     variant ="outlined" 
                     className='githubButton'
+                    sx={{backgroundColor:'white'}}
                     onClick={()=> window.open(data.backEndLink, "_blank")}
                     >
                     <img src={github} alt="github link" className='githubLink'/>
