@@ -30,7 +30,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Paper elevation={2} style={paperStyles}>
-        {/* <ParticleBackground /> */}
+        <ParticleBackground />
         <div className="App">
           <appContext.Provider value={{appMode,setAppMode,theme}}>
             <TopBar />

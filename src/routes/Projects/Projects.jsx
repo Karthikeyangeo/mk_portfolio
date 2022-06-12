@@ -41,7 +41,7 @@ export default function Projects() {
                 <FormHelperText id="FrontEndHelperText">Front End Git</FormHelperText>
               </div>
 
-              {(data.backEndLink != '') ?
+              {(data.backEndLink !== '') ?
                 <div className="btnGroup">
                   <Button 
                     variant ="outlined" 
