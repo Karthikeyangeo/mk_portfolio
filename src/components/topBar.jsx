@@ -95,7 +95,7 @@ export default function TopBar() {
             color="inherit"
             aria-label="Home"
             sx={{ mr: 2 }}
-            onClick={()=> window.open('https://drive.google.com/file/d/1IQfHSnXz7mRYXhqcD7Xu14kcg4QAet0s/view?usp=sharing', "_blank")}
+            onClick={()=> window.open('https://drive.google.com/file/d/1GnBvUf77Lhu-Wz4AjmdpnzSurHzcTO3y/view?usp=sharing', "_blank")}
           >
             Resume
           </IconButton>
