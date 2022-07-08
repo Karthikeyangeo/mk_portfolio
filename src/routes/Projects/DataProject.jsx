@@ -1,6 +1,7 @@
 import bulkEmail from '../../images/bulkEmail.jpg';
 import moneyImg from '../../images/moneyManager.jpg';
 import todolist from '../../images/todolist.JPG'
+import blog from '../../images/BlogImage.jpg'
 
 
 const projectData =[
@@ -33,6 +34,16 @@ const projectData =[
         deployLink:'https://mk-to-do-list.netlify.app/',
         frontEndLink:'https://github.com/Karthikeyangeo/todolist-react',
         backEndLink:''
+
+    },
+    {
+        title : 'Blog',
+        imgSrc : blog,
+        projectDesc:`Fullstack project created using React , Node JS , MongoDB , Express.\n\n
+        This project enables the user to write their thoughts/memories as blog.`,
+        deployLink:'https://mk-travel-blog.netlify.app/',
+        frontEndLink:'https://github.com/Karthikeyangeo/blog-frontend',
+        backEndLink:'https://github.com/Karthikeyangeo/blog-backend'
 
     }
 ];
